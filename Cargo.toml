@@ -6,5 +6,5 @@ version = "0.1.8"
 failure_derive = { path = "./failure_derive" }
 
 [workspace]
-members = [".", "failure_derive", "syn", "proc-macro2"]
+members = [".", "failure_derive", "syn"]
 
