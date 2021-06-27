@@ -1,0 +1,8 @@
+[package]
+name = "syn"
+version = "1.0.73"
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[dependencies]
+proc-macro2 = { path = "../proc-macro2" }
