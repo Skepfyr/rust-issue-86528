@@ -1,9 +1,0 @@
-[package]
-name = "failure_derive"
-version = "0.1.8"
-
-[dependencies]
-syn = { path = "../syn" }
-
-[lib]
-proc-macro = true

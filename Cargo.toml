@@ -1,10 +1,3 @@
-[package]
-name = "failure"
-version = "0.1.8"
-
-[dependencies]
-failure_derive = { path = "./failure_derive" }
-
 [workspace]
-members = [".", "failure_derive", "syn"]
+members = ["root", "my_macro", "dep"]
 

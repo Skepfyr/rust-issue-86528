@@ -3,19 +3,19 @@
 version = 3
 
 [[package]]
-name = "failure"
-version = "0.1.8"
+name = "dep"
+version = "0.1.0"
+
+[[package]]
+name = "my_macro"
+version = "0.1.0"
 dependencies = [
- "failure_derive",
+ "dep",
 ]
 
 [[package]]
-name = "failure_derive"
-version = "0.1.8"
+name = "root"
+version = "0.1.0"
 dependencies = [
- "syn",
+ "my_macro",
 ]
-
-[[package]]
-name = "syn"
-version = "1.0.73"

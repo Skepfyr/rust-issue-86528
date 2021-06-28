@@ -1,0 +1,10 @@
+[package]
+name = "my_macro"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+dep = { path = "../dep" }
+
+[lib]
+proc-macro = true
